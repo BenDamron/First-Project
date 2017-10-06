@@ -10,8 +10,9 @@ body {
 }
 
 article {
-    text-align: Center;
+     text-align: Center;
      font-family: cursive;
+     Border: solid;
 }
 
 #profile-picture {
@@ -27,13 +28,13 @@ article {
     width:40%;
     text-align: center;
     font-family: cursive;
-    border-bottom: solid;
+    border: solid;
 }
 
 #aside-content-wrapper {
     width:60%;
     font-family: cursive;
-    border-bottom: solid;
+    border: solid;
 
 }
 
@@ -49,7 +50,7 @@ img {
   margin-top: 15px;
 }
 
- #bottom-content {
+#bottom-content {
      width : 300px;
      height : 200px;
      display:table;
@@ -59,6 +60,7 @@ img {
         height : 200px;
         display:inline-block;
         padding: 50px 50px 50px 50px;
+        border: solid;
     }
     #bottom-content div{
      display:table-cell;
