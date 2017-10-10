@@ -8,62 +8,25 @@ body {
      border-width: 2px;
      font-family: cursive;
 }
-
-article {
-     text-align: Center;
+#below-header {
+     text-align: center;
+     border-style: solid;
      font-family: cursive;
-     Border: solid;
-}
-
-#profile-picture {
-   max-width: 300px;
-    max-height: 300px;
 }
 #middle-wrapper {
     display:flex;
      font-family: cursive;
 }
 
-#main-content-wrapper {
-    width:40%;
-    text-align: center;
-    font-family: cursive;
-    border: solid;
-}
-
-#aside-content-wrapper {
-    width:60%;
-    font-family: cursive;
-    border: solid;
-
-}
-
 footer {
     display: flex;
 }
 
-img {
-  max-width: 400px;
-}
 .center {
   text-align: center;
   margin-top: 15px;
 }
 
-#bottom-content {
-     width : 300px;
-     height : 200px;
-     display:table;
-     }
-     #bottom-content div img {
-        width : 200px;
-        height : 200px;
-        display:inline-block;
-        padding: 50px 50px 50px 50px;
-        border: solid;
-    }
-    #bottom-content div{
-     display:table-cell;
-       text-align: center;
-        vertical-align: middle;
+#main-content-wrapper {
+    text-align: center;
 }

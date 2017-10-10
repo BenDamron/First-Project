@@ -10,12 +10,10 @@
         <link rel="stylesheet" type='text/css' href="css/style.css">
             <title>Ben Damron</title>
     </head>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
-</html>
+       
     <body>
-        <div id='main'>
+        <div class='row'>
+            <div class='col-md-12 border'>
                     <header id='website-header'>
                         <h1>Ben Damron</h1>
                     </header>
@@ -23,31 +21,52 @@
                     <article id='below-header'>
                         <p> A Student New To Coding</p>
                     </article>
+            </div>
         </div>
+            <div id="main-content-wrapper">
+                <div class='row max-height'>
+                        <div class="col-md-12 border">
+                            <img src="images/sunset.jpg">
+                        </div>
+                </div>
+            </div>
+          
+    <div id='bottom-content'>
+   
+        <div> <img data-toggle="modal" data-target="#css3_modal" src='images/css-3.png'></div>
+    
         
-        <div id="middle-wrapper">
-                    <div id="main-content-wrapper">
-                        <section class="image-content">
-                            <img id='profile-picture' src="http://blog.springfield.k12.or.us/yolanda/files/2009/02/person-placeholder-9.png">
-                        </section>
-                    </div>
-<!--end of main-content-wrapper-->
-                    <div id="aside-content-wrapper">
-                        <aside id="aside-right">
-                            <h4>About Me</h4>
-                            <p>Hi! I am new to coding and really enjoy it, it is fun to be able to make webpages however I want them to look. My hobbies include playing soccer and also coaching it. I have two dogs named Belle and Sophie. I also enjoy playing videogames and hanging out with friends in my downtime.</p>
-                        </aside>
-                    </div>
+        <div> <img data-toggle="modal" data-target="#html5_modal"src='images/html-5.png'></div>
+    
+        <div> <img data-toggle="modal" data-target="#js_modal" src='images/javascript.jpg'></div>
+    </div> 
+ <footer> 
+     <h1>thanks for visiting!</h1>
+ </footer>
+    
+        <div class="modal fade" id="css3_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">css</h4> </div>
+                <div class="modal-body"> <img src='images/css3.png'> css is the code that makes the website look pretty </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">back to webpage</button>
+                </div>
+            </div>
         </div>
-<!--end of middle wrapper-->
-        
-    <div id="bottom-content">
-    <div><img src='images/css-3.png'/></div>
-    <div><img src='images/html-5.png'></div>
-    <div><img src='images/javascript.jpg'></div>
- </div> 
+    </div>
 
-
+    
+    
+    
+    
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
 
 
 
@@ -69,4 +88,3 @@
 
 
 
-    </body>
