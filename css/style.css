@@ -29,4 +29,13 @@ footer {
 
 #main-content-wrapper {
     text-align: center;
+    border-style: solid;
+}
+
+#bottom-content {
+    border-style: solid;
+}
+
+#footer-content {
+    border-style: solid;
 }
