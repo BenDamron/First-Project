@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+}
+
+ #website-header {
+     text-align: center;
+     border-style: solid;
+     border-width: 2px;
+     font-family: cursive;
+}
+#below-header {
+     text-align: center;
+     border-style: solid;
+}
+#middle-wrapper {
+    display:flex;
+     font-family: cursive;
+}
+
+footer {
+    display: flex;
+}
+
+.center {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#main-content-wrapper {
+    text-align: center;
+    border-style: solid;
+}
+
+#bottom-content {
+    border-style: solid;
+}
+
+#footer-content {
+    border-style: solid;
+}
